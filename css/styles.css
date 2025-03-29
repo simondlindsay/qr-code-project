@@ -11,7 +11,7 @@ body {
 
 .main {
   width: 20%;
-  height: 60%;
+  height: 50%;
   background-color: white;
   border-radius: 20px;
   padding: 16px;
@@ -20,9 +20,9 @@ body {
 } 
 
 .main p {
-  color: hsl(0, 0%, 50%);
+  color: hsl(0, 0%, 40%);
   text-align: center;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .qr-code {
@@ -31,16 +31,17 @@ body {
   border-radius: 10px;
 }
 
-h2, p {
+h3, p {
   text-align: center;
+  padding: 0 6%;
 
 }
 
 .attribution p{
-  font-size: 11px;
+  font-size: 10px;
   text-align: center;
   color: hsl(0, 0%, 50%);
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .attribution a {
@@ -57,7 +58,6 @@ h2, p {
   .main {
     width: 90%;
     height: auto;
-    padding: 16px;
     border-radius: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     margin: 20px auto;
